@@ -39,7 +39,7 @@ map("t", "<C-k>", [[<C-\><C-n><C-w>k]], { desc = "Move up" })
 map("t", "<C-l>", [[<C-\><C-n><C-w>l]], { desc = "Move right" })
 
 -- Telescope
-map("n", "<leader>ff", "<CMD>Telescope find_files<CR>", { desc = "Fuzzy find files in cwd" })
+map("n", "<leader>ff", "<CMD>Telescope find_files hidden=true<CR>", { desc = "Fuzzy find files in cwd (including hidden)" })"})
 map("n", "<leader>fg", "<CMD>Telescope live_grep<CR>", { desc = "Find string in cwd" })
 map("n", "<leader>fb", "<CMD>Telescope buffers<CR>", { desc = "Fuzzy find opened files" })
 map("n", "<leader>fs", "<CMD>Telescope git_status<CR>", { desc = "Show git file diffs" })
